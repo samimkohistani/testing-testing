@@ -14,7 +14,7 @@ const characterSchema = new Schema(
             required: true,
         },
         skills: { 
-            type: Array,
+            type: String,
             required: true,
         }
     }
