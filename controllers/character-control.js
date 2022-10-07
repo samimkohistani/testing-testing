@@ -12,7 +12,7 @@ async function createCharacter ({body}, res )
 
 async function getCharacter({body}, res)
 {
-    const characters = await Character.find();
+    const characters = await Character.find({});
     res.json(characters);
 }
 
