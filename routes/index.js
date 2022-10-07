@@ -7,7 +7,7 @@ const {test,
     updateCharacter} = require('../controllers/character-control');
 
 // CREATE
-router.route('/character/create').post(createCharacter);
+router.route('/character').post(createCharacter);
 
 // READ
 router.route('/character').get(getCharacter);
